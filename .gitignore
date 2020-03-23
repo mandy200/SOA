@@ -1,0 +1,11 @@
+**.idea
+**.mvn
+**/target
+**/mvnw
+**/mvnw.cmd
+#ms-basket/src/test/.DS_Store
+
+.DS_Store
+#**/.DS_Store
+**.class
+**.iml
