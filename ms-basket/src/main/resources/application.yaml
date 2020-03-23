@@ -1,0 +1,6 @@
+
+server:
+  port: ${APP_PORT:8060}
+  servlet:
+    context-path: /v1/esipe
+    
