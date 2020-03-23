@@ -1,0 +1,39 @@
+
+server:
+  port: ${APP_PORT:8070}
+  servlet:
+    context-path: /v1/esipe
+    
+app:
+  keystore:
+    file: "/server.p12"
+    alias: "esipe"
+    password: "esipe"
+   
+management:
+  security:
+    enabled: false
+    health:
+      show-details: always
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      #base-path: "/"
+      exposure:
+        include: info, health, metrics, prometheus
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+      atlas:
+        enabled: false
+
+security:
+  require-ssl: false
+  basic:
+    enable: false
+    
+    
