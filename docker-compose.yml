@@ -1,0 +1,21 @@
+version: '2'
+networks:
+  netsoa:
+
+services:
+  ms-basket:
+    image: "mandy200/ms-basket:v1.0"
+    depends_on:
+      - ms-membership
+    networks:
+      - netsoa
+    ports:
+      - "8060:8060"
+
+  ms-membership:
+    image: "mandy200/ms-membership:v1.0"
+    networks:
+      - netsoa
+    ports:
+      - "8070:8070"
+
