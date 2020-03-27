@@ -138,4 +138,6 @@ git push -u origin develop
 
 ### 4) Schéma d'architecture
 
+
+
 ![ComponentDiagram](/Users/Amanda/SOA/TEMP/ComponentDiagram.png)
