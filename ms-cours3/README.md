@@ -138,6 +138,4 @@ git push -u origin develop
 
 ### 4) Schéma d'architecture
 
-
-
-![ComponentDiagram](/Users/Amanda/SOA/TEMP/ComponentDiagram.png)
+![ComponentDiagram](/Users/Amanda/SOA/TEMP/ms-cours3/ComponentDiagram.png)
