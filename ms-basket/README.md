@@ -1,6 +1,4 @@
----
-typora-copy-images-to: upload
----
+
 
 # [Readme] ms-basket
 
@@ -12,7 +10,7 @@ Afin de suivre ce guide de manière optimale, il conviendrait de commencer par l
 
 
 
-###1) Docker
+### 1) Docker
 
 > On considèrera ici que la commande `docker login`  a été précédemment executée.
 
@@ -33,7 +31,7 @@ docker push mandy200/ms-basket:v1.0
 
 
 
-###2) Test API (ms-basket)
+### 2) Test API (ms-basket)
 
 > Les différents Tokens et identifiants n'ont pas été précisés car ils changent à chaque exécution.
 
