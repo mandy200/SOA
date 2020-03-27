@@ -8,7 +8,7 @@ Afin de suivre ce guide de manière optimale, il conviendrait de commencer par l
 
 
 
-### I - Docker
+### 1) Docker
 
 ```shell
 docker login
@@ -30,7 +30,7 @@ docker push mandy200/ms-membership:v1.0
 
 
 
-### II- Test API (ms-membership)
+### 2) Test API (ms-membership)
 
 ```shell
 #Création d'un user
@@ -138,4 +138,4 @@ git push -u origin develop
 
 ### 4) Schéma d'architecture
 
-![ComponentDiagram](/Users/Amanda/SOA/TEMP/ms-cours3/ComponentDiagram.png)
+![ComponentDiagram](https://tva1.sinaimg.cn/large/00831rSTgy1gd91rktrfxj30nn09ijrn.jpg)
